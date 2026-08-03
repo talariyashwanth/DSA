@@ -1,5 +1,6 @@
 a = 10
 b = 10
-c = a+b
+c = "loves"
 print("Talari Yashwanth")
 print(c)
+print("Sonikanti Pujithosmi")
