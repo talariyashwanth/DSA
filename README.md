@@ -1,2 +1,2 @@
-# dsa_python
-EVerything I do in DSA with python
+# DSA
+Gonna be a pro DSA solver in both python and java
