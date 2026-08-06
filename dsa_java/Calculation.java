@@ -12,7 +12,7 @@ class Rectangle {
         a = sc.nextInt();
         System.out.println("Enter breadth : ");
         b = sc.nextInt();
-    }
+        sc.close();    }
 
     void Calculate_area() {
         area = a * b;

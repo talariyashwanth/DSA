@@ -7,6 +7,7 @@ class swap{
         a = sc.nextInt();
         System.out.println("Enter b : ");
         b = sc.nextInt();
+        sc.close();
     }
     void Swap(){
         int temp = a;
