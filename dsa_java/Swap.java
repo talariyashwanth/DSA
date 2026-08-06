@@ -8,7 +8,7 @@ class swap{
         System.out.println("Enter b : ");
         b = sc.nextInt();
     }
-    void swap(){
+    void Swap(){
         int temp = a;
         a = b;
         b = temp;
@@ -19,11 +19,11 @@ class swap{
         System.out.println("b = " + b);
         }
     }
-    public class Main{
+    public class Swap{
         public static void main(String[] args) {
             swap obj = new swap();
             obj.input();
-            obj.swap();
+            obj.Swap();
             obj.display();
         }
     }
