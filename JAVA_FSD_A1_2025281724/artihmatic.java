@@ -1,6 +1,8 @@
 package JAVA_FSD_A1_2025281724;
+
 /*Read two integers a and b. Print their sum, difference, product, 
 integer quotient, remainder, and the exact quotient as a double. */
+
 import java.util.Scanner;
 public class artihmatic {
     public static void main(String[] args){
