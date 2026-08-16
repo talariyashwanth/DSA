@@ -1,4 +1,7 @@
 import java.util.*;
+
+/* Sum of array */
+
 class Main{
     int i;
     void ReverseArray(int arr[]){

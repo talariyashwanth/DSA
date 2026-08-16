@@ -1,4 +1,7 @@
 import java.util.*;
+
+/* Maximum and Minimum element in array */
+
 class Main{
     int i;
     void maxMin(int arr[]){
