@@ -1,5 +1,7 @@
 package JAVA_FSD_A1_2025281724;
 
+/* Grade Calculator using JAVA */
+
 import java.util.Scanner;
 
 public class GradeCalculator {

@@ -1,5 +1,7 @@
 package JAVA_FSD_A1_2025281724;
 
+/* Leap Year Checker */
+
 import java.util.Scanner;
 
 public class LeapYearChecker {

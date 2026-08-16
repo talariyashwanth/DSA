@@ -1,5 +1,7 @@
 package JAVA_FSD_A1_2025281724;
 
+/* Learning Process */
+
 import java.util.Scanner;
 
 public class Ternary {

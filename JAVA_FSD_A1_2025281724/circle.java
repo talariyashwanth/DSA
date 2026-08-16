@@ -1,5 +1,5 @@
 package JAVA_FSD_A1_2025281724;
-/* Read the radius (double). Print the area and circumference using Math.PI, both rounded to 2 decimal places with printf. */
+/* Read the radius (double). Print the area and circumference using Math.PI*/
 import java.util.Scanner;
 public class circle {
     public static void main(String[] args){

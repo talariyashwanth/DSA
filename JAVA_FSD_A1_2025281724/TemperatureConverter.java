@@ -14,7 +14,7 @@ public class TemperatureConverter {
         System.out.print("Enter Fahrenheit: ");
         double fahrenheitIn = input.nextDouble();
         double celsiusOut = (fahrenheitIn - 32.0) * 5.0 / 9.0;
-        System.out.printf("%.1f F = %.1f C%n", fahrenheitIn, celsiusOut);
+        System.out.printf("%.1f F = %.2f C%n", fahrenheitIn, celsiusOut);
 
         input.close();
     }

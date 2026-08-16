@@ -1,5 +1,7 @@
 package JAVA_FSD_A1_2025281724;
 
+/* Menu calculator with java */
+
 import java.util.Scanner;
 
 public class MenuCalculator {
