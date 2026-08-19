@@ -15,5 +15,4 @@ const User = {
     email : "talariyashwanth10@gmail.com"
 }
 User.email = "ft.yashwanth.talari@gmail.com";
-User.lName = "Yashwanth";
 console.log(User);
