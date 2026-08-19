@@ -20,3 +20,4 @@ a = 30;
 console.log(a);
 const c = 70;
 console.log(c);
+
