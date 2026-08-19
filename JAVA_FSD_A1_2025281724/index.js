@@ -8,3 +8,10 @@
 
 // Objects
 
+const User = {
+    fName : "Talari",
+    lName : "Yashwanth",
+    state : "Andhra Pradesh",
+    email : "talariyashwanth10@gmail.com"
+}
+console.log(User);
