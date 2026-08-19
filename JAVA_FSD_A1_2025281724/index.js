@@ -11,3 +11,12 @@
 // var lname = "Yashwanth";
 // console.log(fname + " " + lname);
 
+console.log(b);
+var b = 60;
+let a = 20;
+var b;
+b = 50;
+a = 30;
+console.log(a);
+const c = 70;
+console.log(c);
