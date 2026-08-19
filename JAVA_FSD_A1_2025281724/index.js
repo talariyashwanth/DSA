@@ -4,5 +4,6 @@
 // a = 20;
 // console.log(a);
 
-const c = 5;
-console.log(c);
+// const c = 5;
+// console.log(c);
+
