@@ -14,4 +14,6 @@ const User = {
     state : "Andhra Pradesh",
     email : "talariyashwanth10@gmail.com"
 }
+User.email = "ft.yashwanth.talari@gmail.com";
+User.lName = "Pujithosmi";
 console.log(User);
