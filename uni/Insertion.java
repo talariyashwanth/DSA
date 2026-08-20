@@ -2,5 +2,10 @@ import java.util.*;
 public class Insertion{
     public static void main(String[] args){
         int len = arr.length;
+        for(int i = 1; i < len; i++){
+            int key = arr[i];
+            int j = i-1;
+            while(j >= 0; )
+        }
     }
 }
