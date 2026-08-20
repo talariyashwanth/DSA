@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Insertion {
 
-    // Extracted the sorting logic into its own dedicated method
     public void insertionSort(int[] arr) {
         int len = arr.length;
         for (int i = 1; i < len; i++) {
@@ -28,14 +27,11 @@ public class Insertion {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        
         System.out.println("After sorting, the elements in array: ");
-        Obj.insertionSort(arr); // Correctly calls the method now
-        
+        Obj.insertionSort(arr); 
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
-        
         sc.close();
     }
 }
