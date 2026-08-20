@@ -11,6 +11,10 @@ public class Insertion{
             }
             arr[j+1] = key;
         }
-        
+    public static void main(String[] args){
+        Insetion Obj = new Insertion();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of array: ");
+    }
     }
 }
