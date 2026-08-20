@@ -1,30 +1,41 @@
 import java.util.*;
-public class Insertion{
-    int len = arr.length;
-    for(int i = 1; i < len; i++){
-        int key = arr[i];
-        int j = i-1;
-        while(j >= 0 && key < arr[j]){
-            arr[j+1] = arr[j];
-            j--;
-        }
-        arr[j+1] = key;
 
-    public static void main(String[] args){
-        Insetion Obj = new Insertion();
+public class Insertion {
+
+    // Extracted the sorting logic into its own dedicated method
+    public void insertionSort(int[] arr) {
+        int len = arr.length;
+        for (int i = 1; i < len; i++) {
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && key < arr[j]) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            arr[j + 1] = key;
+        }
+    }
+
+    public static void main(String[] args) {
+        Insertion Obj = new Insertion();
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("Enter the size of array: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
+        
         System.out.println("Enter elements in array: ");
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        
         System.out.println("After sorting, the elements in array: ");
-        Obj.insertionSort(arr);
-        for(int i = 0; i < n; i++){
+        Obj.insertionSort(arr); // Correctly calls the method now
+        
+        for (int i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
-    }
+        
+        sc.close();
     }
 }
