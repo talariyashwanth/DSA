@@ -9,8 +9,9 @@ public class test {
                 if(a == c && b == c){
                     sms(a,c);
                 }
-                System.out.println
+                System.out.print(b);
             }
+            System.out.println();
         }
     }
 }
