@@ -22,6 +22,7 @@ public class tea {
             System.out.println("Requirement of tea leaves: " + req_of_TL);
             System.out.println("Available milk: " + avl_M);
             System.out.println("Available sugar: " + avl_S);
+            System.out.println("Available tea leave: " + avl_TL);
         }
     }
 }
