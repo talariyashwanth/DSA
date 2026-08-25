@@ -24,5 +24,9 @@ public class tea {
             System.out.println("Available sugar: " + avl_S);
             System.out.println("Available tea leave: " + avl_TL);
         }
+        else{
+            System.out.println("Tea cannot be prepared");
+        }
+        sc.close();
     }
 }
