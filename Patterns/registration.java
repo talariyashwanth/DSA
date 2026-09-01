@@ -17,3 +17,29 @@ class User{
     }
 }
 
+public class registration{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        User user = null;
+
+        while(true){
+            System.out.println("\n-----Registration & Sign In-----");
+            System.out.println("Register");
+            System.out.println("Sign In");
+            System.out.println("Exit");
+            System.out.println("Choose: ");
+
+            int choice = sc.nextInt();
+            sc.nextLine();
+
+            if(choice == 1){
+                System.out.println("Enter UserName: ");
+                String Name = sc.nextLine();
+                System.out.println("Enter Password: ");
+                int Password = sc.nextLine();
+
+                User = new User
+            }
+        }
+    }
+}
