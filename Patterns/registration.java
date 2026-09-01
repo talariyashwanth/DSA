@@ -50,9 +50,21 @@ public class registration{
 
                 if(Name.equals(User.getName()) && Password.equals(User.getPassword())){
                     System.out.println("Sign In Successful!");
-                }
 
+                    System.out.println("Welcome, " + User.getName());
+                }
+                else {
+                    System.out.println("Invalid UserName or Password");
+                }
+            else if(choice == 3){
+                    System.out.println("Bye...!");
+                    break;
+                }
+            else{
+                    System.out.println("Invalid Choice");
+                }
             }
         }
+        sc.close();
     }
 }
