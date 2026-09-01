@@ -37,12 +37,19 @@ public class registration{
                 String Name = sc.nextLine();
                 System.out.println("Enter Password: ");
                 int Password = sc.nextInt();
+                sc.nextLine();
 
                 user = new User(Name,Password);
 
                 System.out.println("Registration successful!");
             }
             else if(choice == 2){
+
+                if(user == null){
+                    System.out.println("Please register first.");
+                    continue;
+                }
+
                 System.out.println("Enter UserName: ");
                 String Name = sc.nextLine();
                 System.out.println("Enter Password: ");
@@ -65,6 +72,6 @@ public class registration{
                     System.out.println("Invalid Choice");
                 }
             }
+            sc.close();
         }
-        sc.close();
     }
