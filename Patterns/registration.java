@@ -48,7 +48,10 @@ public class registration{
                 System.out.println("Enter Password: ");
                 int Password = sc.nextLine();
 
-                
+                if(Name.equals(User.getName()) && Password.equals(User.getPassword())){
+                    System.out.println("Sign In Successful!");
+                }
+
             }
         }
     }
