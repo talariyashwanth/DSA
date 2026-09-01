@@ -48,7 +48,7 @@ public class registration{
                 System.out.println("Enter Password: ");
                 int Password = sc.nextInt();
 
-                if(if(Name.equals(user.getName()) && Password == user.getPassword())){
+                if((Name.equals(user.getName()) && Password == user.getPassword())){
                     System.out.println("Sign In Successful!");
 
                     System.out.println("Welcome, " + user.getName());
@@ -68,4 +68,3 @@ public class registration{
         }
         sc.close();
     }
-}
