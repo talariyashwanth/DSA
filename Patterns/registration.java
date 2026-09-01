@@ -36,9 +36,9 @@ public class registration{
                 System.out.println("Enter UserName: ");
                 String Name = sc.nextLine();
                 System.out.println("Enter Password: ");
-                int Password = sc.nextLine();
+                int Password = sc.nextInt();
 
-                User = new User(Name,Password);
+                user = new User(Name,Password);
 
                 System.out.println("Registration successful!");
             }
@@ -46,16 +46,17 @@ public class registration{
                 System.out.println("Enter UserName: ");
                 String Name = sc.nextLine();
                 System.out.println("Enter Password: ");
-                int Password = sc.nextLine();
+                int Password = sc.nextInt();
 
-                if(Name.equals(User.getName()) && Password.equals(User.getPassword())){
+                if(if(Name.equals(user.getName()) && Password == user.getPassword())){
                     System.out.println("Sign In Successful!");
 
-                    System.out.println("Welcome, " + User.getName());
+                    System.out.println("Welcome, " + user.getName());
                 }
                 else {
                     System.out.println("Invalid UserName or Password");
                 }
+            }
             else if(choice == 3){
                     System.out.println("Bye...!");
                     break;
