@@ -38,7 +38,17 @@ public class registration{
                 System.out.println("Enter Password: ");
                 int Password = sc.nextLine();
 
-                User = new User
+                User = new User(Name,Password);
+
+                System.out.println("Registration successful!");
+            }
+            else if(choice == 2){
+                System.out.println("Enter UserName: ");
+                String Name = sc.nextLine();
+                System.out.println("Enter Password: ");
+                int Password = sc.nextLine();
+
+                
             }
         }
     }
