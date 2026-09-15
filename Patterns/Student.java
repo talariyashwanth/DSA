@@ -4,8 +4,7 @@ class Student {
 
     Student() {
         name = "Unknown";
-        age = 0;
-        branch = "Not Assigned";
+        roll = 0;
     }
 
     Student(String name, int roll)
