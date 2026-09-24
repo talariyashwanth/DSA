@@ -17,7 +17,7 @@ public class inheritance1 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter sentence : ");
-        String s = obj.nextLine();
+        String s = obj.nextLine(); 
         System.out.println(removeDuplicates(s)); 
     }
 }
