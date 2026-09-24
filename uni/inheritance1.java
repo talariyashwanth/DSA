@@ -18,6 +18,6 @@ public class inheritance1 {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter sentence : ");
         String s = obj.nextLine();
-        System.out.println(removeDuplicates(s));
+        System.out.println(removeDuplicates(s)); 
     }
 }
