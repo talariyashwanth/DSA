@@ -1,3 +1,4 @@
+package OOPS;
 import java.util.*;
 public class inheritance1 {
     public static String removeDuplicates(String s){
