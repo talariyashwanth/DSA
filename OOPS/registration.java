@@ -1,4 +1,4 @@
-package OOPS;
+
 import java.util.Scanner;
 class User{
     private String Name;
