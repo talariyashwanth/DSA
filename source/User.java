@@ -1,10 +1,12 @@
-package SIH;
-public class second {
+package source;
+
+public class User {
     protected void sms() {
         System.out.println("SMS in user");
     }
     public static void main(String[] args) {
-        second u = new second();
+        User u = new User();
         u.sms();
     }
 }
+
