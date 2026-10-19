@@ -6,6 +6,7 @@ class string {
         System.out.println(a.equalsIgnoreCase(b));
         StringBuffer c = new StringBuffer("Yashwanth");
         System.out.println(a.equals(b));
+        System.out.println(c.equals(b));
         // String a = new String("Yashwanth").intern();
         // String b = new String("Yashwanth").intern();
         // String c = "Yashwanth";
