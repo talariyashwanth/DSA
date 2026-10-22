@@ -4,8 +4,9 @@ class Main {
         try
     
     {
-        int diveByZero = 5 / 0;
-        System.out.println("Rest of codde in try block");
+        int diveByZero = 6 / 2;
+        float result = diveByZero;
+        System.out.println("Rest of code in try block " + result);
     }
     catch (ArithmeticException e) {
         System.out.println("Arithmatic Exception => " + e.getMessage());
